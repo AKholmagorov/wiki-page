@@ -1,0 +1,219 @@
+
+body, h1, h2, h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+header {
+  display: flex;
+  padding: 10px;
+  background: linear-gradient(90deg, #f5aa42, #cbf542);
+}
+
+.logo-box img {
+  height: 25vh;
+  border: black 3px dashed;
+  transition-duration: 0.5s;
+}
+
+.logo-box img:hover {
+  filter: drop-shadow(0 0px 10px white);
+  transition: 0.3s;
+}
+
+.main-box {
+  flex-grow: 0.8;
+  height: 12.5vh;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: black 3px dashed;
+
+  text-align: center;
+  justify-content: center;
+}
+
+.contact-box {
+  font-weight: bold;
+  flex-grow: 0.2;
+  height: 25vh;
+  padding-left: 20px;
+  border: black 3px dashed;
+}
+
+/* menu */
+.menu ul {
+  background: linear-gradient(90deg, #f5aa42, #cbf542);
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 10vh;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.menu li {
+  color: black;
+  background: linear-gradient(90deg, #b3f542, #cbf542);
+  height: 6vh;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: black 3px dashed;
+}
+
+.menu li:hover {
+  background: linear-gradient(90deg, red, blue);
+}
+
+/* content */
+.content {
+  display: flex;
+  gap: 15px;
+  min-height: 40vh;
+  padding-bottom: 15px;
+  margin: auto 10px 10px;
+}
+
+.left-menu {
+  min-width: 25%;
+  max-width: 30%;
+  border: black 3px dashed;
+}
+
+.left-menu ul {
+  padding-left: 10px;
+  padding-right: 10px;
+
+  text-align: center;
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  list-style-type: none;
+}
+
+.left-menu ul li {
+  margin: 15px 15px auto;
+}
+
+.left-menu ul li:hover {
+  color: red;
+  transition: 0.3s;
+}
+
+.left-menu ul a {
+  text-decoration: none;
+}
+
+.right-menu {
+  flex-grow: 1;
+  flex-flow: column;
+  display: flex;
+  gap: 15px;
+}
+
+.h2 {
+  text-align: center;
+  border: black 3px dashed;
+}
+
+.text-area {
+  padding: 10px;
+  border: black 3px dashed;
+}
+
+.boxes-area {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  min-height: 200px;
+}
+
+.box-column {
+  display: flex;
+  gap: 50px;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  overflow: hidden;
+  border: black 3px dashed;
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(1);
+  transition-duration: 0.5s;
+}
+
+.box img:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+/* footer */
+footer {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  gap: 40px;
+  padding: 10px;
+  min-height: 40vh;
+  background: black;
+}
+
+.item {
+  padding: 10px;
+  height: 35vh;
+  width: 250px;
+  border: white 3px dashed;
+}
+
+.vk-link img{
+  height: 50px;
+}
+
+.box-2 {
+  height: 10vh;
+}
+
+.box-3 {
+  flex-grow: 1;
+}
+
+.frm-box {
+  display: flex;
+  height: 85%;
+}
+
+.txt-box {
+  height: 100%;
+  flex-grow: 1;
+}
+
+.e-box {
+  height: 100%;
+  width: 40%;
+  padding-left: 10px;
+}
+
+input[type="checkbox"] {
+  align-self: center; /* or flex-start, depending on the desired alignment */
+  margin-right: 10px; /* adjust spacing between checkbox and label */
+}
+
